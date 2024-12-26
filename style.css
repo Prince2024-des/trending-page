@@ -200,5 +200,237 @@ section{
 /* content section ends here */
 
 
+/* container section starts here */
+
+
+
+#container  h1{
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+
+
+#container .name{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+
+#container .name button{
+  padding: 3px 30px;
+  border: 3px solid #9747FF;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+#container .name button:hover{
+  border: 4px solid #450BCC;
+}
+
+
+
+
+
+
+
+
+#container .name h2{
+  font-weight: 500;
+  font-size: 20px;
+  color:#000000;
+}
+
+
+
+#container .container-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+#container .container-header .card img{
+  width: 100%;
+  height: 50vh;
+  /* padding: 10px; */
+}
+
+
+#container .container-header .card img:hover{
+  border: 3px solid #450BCC;
+  border-radius: 25px;
+  /* padding: 0; */
+}
+
+
+
+
+#container .container-header .card h1{
+  text-align: center;
+  font-weight: 400;
+  font-size: 23px;
+  color: #000000;
+}
+
+
+
+#container .container-header .card h2{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2F0F58;
+}
+
+
+#container .container-ok{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+
+#container .container-ok h1{
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+
+}
+
+
+#container .container-ok button{
+  padding: 4px 20px;
+  border: 2px solid #9747FF;
+  border-radius: 20px;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+#container .container-ok button:hover{
+  border: 4px solid #450BCC;
+}
+
+
+
+
+
+
+
+
+/* container section ends here */
+
+
+
+/* confirm section starts here */
+
+
+#confirm {
+  display: flex;
+  margin-top: 2rem;
+  /* gap: 2rem; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+
+#confirm .confirm-card img{
+  width: 80%;
+}
+
+
+#confirm .confirm-card h2{
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 1rem;
+
+}
+
+#confirm .confirm-card p{
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+  margin-top: 2rem;
+}
+
+
+#confirm .confirm-card h5{
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+  margin-top: 1.5rem;
+}
+
+
+
+
+
+
+
+#confirm .confirm-div .card{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  /* flex-direction: column; */
+}
+
+
+#confirm .confirm-div .card img{
+  width: 10rem;
+  /* height: 25vh; */
+  /* gap: 10rem; */
+  margin-bottom: 2rem;
+}
+
+
+
+#confirm .confirm-div .card h1{
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: -2rem;
+  color: #2F0F58;
+}
+
+
+#confirm .confirm-div .card p{
+  font-weight: 500;
+  font-weight:20px ;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+#confirm .confirm-div .card h5{
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* confirm section ends here */
+
+
 
 
