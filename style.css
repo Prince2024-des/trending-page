@@ -419,17 +419,152 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* confirm section ends here */
+
+
+
+/* contact section starts here */
+
+/* #contact{
+  gap: 2rem;
+} */
+
+#contact h1{
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+
+
+#contact .contact-div{
+  display: flex;
+  /* gap: 1rem; */
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+
+#contact .contact-div .div .contact-other{
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; */
+}
+
+
+#contact .contact-div .div .contact-other img{
+  width: 3rem;
+}
+
+#contact .contact-div .div .contact-other .contact-ok{
+  margin: 2rem 0;
+}
+
+
+#contact .contact-div .div .contact-other .contact-ok h3{
+     font-weight: 500;
+     font-size: 16px;
+     color: #000000;
+}
+
+
+
+#contact .contact-div .div .contact-other .contact-ok img{
+  width: 1rem;
+}
+
+
+#contact .contact-div .div h2{
+   font-weight: 500;
+   font-size: 20px;
+   margin: 1rem 0;
+   color: #000000;
+}
+
+
+#contact .contact-div .div p{
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+
+#contact .contact-div .contact-image{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+
+#contact .contact-div .contact-image img{
+  width: 50%;
+  height: 70vh;
+}
+
+
+#contact .contact-div .contact-image img:hover{
+  border: 3px solid #450BCC;
+  background-color: 2rem;
+}
+
+
+#contact .contact-div .contact-image .video{
+  width: 300px;
+  height: 300px;
+  margin-top: -6.5rem;
+  /* border-radius: 2r */
+
+}
+
+#contact .contact-div .contact-image .video iframe{
+  border-radius: 2rem;
+}
+
+
+#contact .contact-div .contact-image .video iframe:hover{
+  border: 7px solid #2F0F58;
+}
+
+
+
+
+#contact .contact-div .contact-image .video .btn{
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#contact .contact-div .contact-image .video .btn button{
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  border:2px solid #9747FF;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  padding: 5px 25px;
+}
+
+
+#contact .contact-div .contact-image .video .btn button:hover{
+  border: 3px solid #450BCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact section ends here */
 
 
 
